@@ -10,6 +10,6 @@ Each entry will be in a new folder and contain:
 At the root of the repo will be a JSON file. This will list all of the blog entries and define the following:
 
 * Main Title
-* Sub-Title
+* Path
 * Snippet
 * Date
