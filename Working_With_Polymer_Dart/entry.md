@@ -1,0 +1,15 @@
+## Working with Dart, Polymer, and *CloudMusic* Progress
+
+Overall First Impressions
+
+March 8th, 2015
+
+When I started the *CloudMusic* project I needed to do something new and different. I didn't want it to simply be an app that I pumped out quickly and did nothing interesting with. The server component is built on a highly modified version of the Blips server, which I cleaned up significantly and made more modular, also much more secure. The server technology was set in stone the day I jotted down the idea for the app but I wasn't sure about the client. I wanted to experiment with Swift but after a few weeks of struggling with the language I threw out all the code. I began working at Publicis and for the first few weeks I didn't have a concrete project to work on so I started researching emerging web technologies, where I found Dart then Polymer.
+
+I'm a few months into the project and my overall impressions of the platform are: intimidated, satisfied, and impressed. Dart has a lot of quirks to it, mainly because of the fact that it's so new and being rapidly developed, but being on the bleeding-edge has it's advantages. I get to write a web application with a fully class based, statically and dynamically typed, feature rich and modern language where only javascript or languages loosely based off of javascript are used. I am fully aware that Dart is compiled down to javascript when not the app is not run in Dartium but I don't need to deal with that code unless I'm debugging a browser specific issue, which I have not come across yet. This app is being built for evergreen, mobile browsers and takes advantage of all the newest HTML5 features that are making their way into the spec. One of the most interesting features is the ShadowDom. Polymer uses this extensively and delievers a blazing fast experience which wasn't even possible before. The shadowDom is a virtual DOM that is encapsulated in a single Element. The *lightDom* then takes the delta changes and reflects them on the screen. You can manipulate the DOM without as large of a performance hit. This performance gain is very prevalent when using the **Core-List-Dart** component which provides an *infinite list* without having all the list-items in the DOM at the same time.
+
+![CloudMusic Progress Image](Blog/Working_With_Polymer_Dart/cloud-music-progress-polymer-dart.jpeg "The CloudMusic client is shaping up to be a really beautiful app.")
+
+With regards to progress being made on CloudMusic - I have the server in a state where I'm happy with it but still need to improve the overall CMS UI, Authentication is finished, the different sections are being populated with real data, and the client's UI is taking shape. Nothing is set in stone but the app's look and feel are spot on with what I envisioned in the design phase. The next steps will be playing an actual song from the server, inner page creation: if I select a top level list item that isn't a song-item I need it to show the next view (ie. I select an Album and I need the songs to be listed in a new view) and a user menu where they can change a few settings.
+
+Until the next time, I must get back to work.

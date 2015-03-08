@@ -10,5 +10,11 @@
 		"date": "February 12th, 2015",
 		"snippet": "I find the aesthetics of Paper Elements to be very much aligned with my overall vision of CloudMusic's UI",
 		"path": "Polymer_Progress"
+	},
+	{
+		"name": "Progress - Working with Polymer and Dart",
+		"date": "March 8th, 2015",
+		"snippet": "After a month of working with Dart and it's Polymer port I have to say I'm beyond impressed, yet a bit scared",
+		"path": "Working_With_Polymer_Dart"
 	}
 ]
