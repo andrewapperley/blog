@@ -16,5 +16,11 @@
 		"date": "March 8th, 2015",
 		"snippet": "After a month of working with Dart and it's Polymer port I have to say I'm beyond impressed, yet a bit scared",
 		"path": "Working_With_Polymer_Dart"
+	},
+	{
+		"name": "The Blips Servers will be shutdown",
+		"date": "June 16th, 2015",
+		"snippet": "Almost a year and a half of development and less than five months of uptime",
+		"path": "Blips_is_shutting_down"
 	}
 ]
