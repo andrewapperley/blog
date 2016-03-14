@@ -1,15 +1,15 @@
 [
 	{
-		"name": "Starting a new project",
-		"date": "February 7th, 2015",
-		"snippet": "Blips has been completed for sometime now yet with existing changes I still want to make but I needed a break",
-		"path": "Starting_a_new_project"
-	},
-	{
 		"name": "Progress - Integrating Polymer",
 		"date": "February 12th, 2015",
 		"snippet": "I find the aesthetics of Paper Elements to be very much aligned with my overall vision of CloudMusic's UI",
 		"path": "Polymer_Progress"
+	},
+	{
+		"name": "Starting a new project",
+		"date": "February 7th, 2015",
+		"snippet": "Blips has been completed for sometime now yet with existing changes I still want to make but I needed a break",
+		"path": "Starting_a_new_project"
 	},
 	{
 		"name": "Progress - Working with Polymer and Dart",
